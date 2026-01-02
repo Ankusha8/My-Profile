@@ -1,0 +1,18 @@
+Key Facilities / Features of S3 Buckets
+
+1. Object Storage
+	•	Stores data as objects (file + metadata + unique key)
+	•	Supports any file type (images, videos, logs, backups, documents)
+
+2. High Durability & Availability
+	•	99.999999999% (11 nines) durability
+	•	Data is automatically replicated across multiple AZs
+
+3. Scalability
+	•	No limit on storage size
+	•	Handles millions of requests per second automatically
+
+4. Security
+	•	Bucket policies (JSON-based access control)
+	•	IAM policies for user/role access
+	•	ACLs (legacy, not recommended now)
