@@ -1,0 +1,41 @@
+🌐 AWS S3 (Simple Storage Service)
+
+AWS S3 is an object storage service used to store and retrieve any amount of data from anywhere.
+
+⸻
+
+🧱 Core Components
+	•	Bucket → Container for storing data
+	•	Object → File + metadata
+	•	Key → Unique name of the object inside a bucket
+
+⸻
+
+⭐ Key Features
+	•	Highly Durable → 99.999999999% (11 9’s) durability
+	•	Scalable → Unlimited storage
+	•	Secure → IAM, Bucket Policy, ACLs, Encryption
+	•	High Availability → Accessible anytime
+	•	Cost Effective → Pay only for what you use
+
+⸻
+
+🔐 Security in S3 (Important for Cloud Security Roles)
+	•	IAM Policies – Control user/role access
+	•	Bucket Policies – Resource-based access control
+	•	ACLs – Object-level permissions
+	•	Encryption
+	•	At Rest → SSE-S3, SSE-KMS, SSE-C
+	•	In Transit → HTTPS (TLS)
+	•	Block Public Access – Prevent accidental exposure
+
+⸻
+
+📦 Storage Classes
+	•	Standard – Frequently accessed data
+	•	Intelligent-Tiering – Auto moves data based on usage
+	•	Standard-IA – Infrequent access
+	•	One Zone-IA – Low-cost, single AZ
+	•	Glacier Instant Retrieval
+	•	Glacier Flexible Retrieval
+	•	Glacier Deep Archive – Lowest cost
